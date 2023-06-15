@@ -1,3 +1,15 @@
-.navbar-brand img{
-
+:root{
+    --prim_cor: #041562;
+    --sec_cor: #11468F;
+    --ter_cor: #DA1212;
+    --quar_cor:#EEEEEE;
+}
+body{
+    background-color: var(--prim_cor);
+}
+body #navbar{
+    background-color: var(--quar_cor);
+}
+.cards{
+    margin-top: 10%;
 }
