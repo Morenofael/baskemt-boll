@@ -5,11 +5,14 @@
     --quar_cor:#EEEEEE;
 }
 body{
-    background-color: var(--prim_cor);
+    background-color: var(--sec_cor);
 }
 body #navbar{
     background-color: var(--quar_cor);
 }
 .cards{
     margin-top: 10%;
+}
+.container-fluid > img{
+    width: 10vw;
 }
