@@ -7,15 +7,20 @@
     <title>Document</title>
 </head>
 <body>
+        <?php
+            require_once("Connection.php");
+            $conn = Connection::getConnection();
+            print_r($conn);
+        ?>
         <div class="cards" >
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <div class="card">
-                <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/203500.png" class="card-img-top" alt="...">
+                <!--<img src="https://cdn.nba.com/headshots/nba/latest/1040x760/203500.png" class="card-img-top" alt="...">-->
                 <div class="card-body">
                   <h5 class="card-title">Steven Adams</h5>
                   <p class="card-text">
-                    2.11 m, 120 kg<br>
+                    2.11 m,1 20 kg<br>
                     20/7/1993 (29)<br>
                     Pitt<br>
                     2013: Rd 1, Pick 12 (OKC)</p>
@@ -23,12 +28,7 @@
               </div>
             </div>
         </div>
-        <br><br>
-        <?php
-            require_once("Connection.php");
-            $conn = Connection::getConnection();
-            print_r($conn);
-        ?>
+        <br><br>   
     
 </body>
 </html>

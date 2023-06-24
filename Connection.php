@@ -17,12 +17,13 @@ class Connection {
             //ATENÇÃO: 
             //lembrar de alterar os dados da base de dados
             //de acordo com o ambiente
+            
             self::$conn = new PDO(
                 "mysql:host=localhost;dbname=dbnbadraft", 
-                "root", "root", $opcoes);
+                "root", "RwC7pk3NhCtJ8By", $opcoes);
         }
 
         return self::$conn;
     }
 }
-?>
+?> 
