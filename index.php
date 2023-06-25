@@ -108,6 +108,40 @@
             <option value="GSW">Golden State Warriors</option>
             <option value="LAL">Los Angeles Lakes</option>
             <option value="DEN">Denver Nuggets</option>
+            <option value="LAC">LA Clippers</option>
+            <option value="PHX">Phoenix Suns</option>
+            <option value="SAC">Sacramento Kings</option>
+            <option value="BOS">Boston Celtics</option>
+            <option value="BKN">Brooklyn Nets</option>
+            <option value="NYK">New York Knicks</option>
+            <option value="P76">Philadelphia 76ers</option>
+            <option value="TOR">Toronto Raptors</option>
+            <option value="CHI">Chicago Bulls</option>
+            <option value="CLE">Cleveland Cavaliers</option>
+            <option value="DET">Detroit Pistons</option>
+            <option value="IND">Indiana Pacers</option>
+            <option value="MIL">Milwaukee Bucks</option>
+            <option value="ATL">Atlanta Hawks</option>
+            <option value="CHA">Charlotte Hornets</option>
+            <option value="MIA">Miami Heat</option>
+            <option value="ORL">Orlando Magic</option>
+            <option value="WAS">Washington Wizards</option>
+            <option value="MIN">Minnesota Timberwolves</option>
+            <option value="OKC">Oklahoma City Thunder</option>
+            <option value="POR">Portland Trail Blazers</option>
+            <option value="UTA">Utah Jazz</option>
+            <option value="DAL">Dallas Mavericks</option>
+            <option value="HOU">Houston Rockets</option>
+            <option value="MEM">Memphis Grizzlies</option>
+            <option value="NOP">New Orleans Pelicans</option>
+            <option value="SAS">San Antonio Spurs</option>
+
+
+
+
+
+
+
         </select>
 
         <br>
