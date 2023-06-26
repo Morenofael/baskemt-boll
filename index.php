@@ -33,7 +33,7 @@
           $stmt = $conn->prepare($sql);
           $stmt->execute([$nome, $altura, $peso, $nascimento, $universidade, $pickYear, $pickRd, $pickNum, $pickTeam, $fotoLink]);
           header("location: index.php");
-    } 
+    }
     ?>
 
 
@@ -135,13 +135,6 @@
             <option value="MEM">Memphis Grizzlies</option>
             <option value="NOP">New Orleans Pelicans</option>
             <option value="SAS">San Antonio Spurs</option>
-
-
-
-
-
-
-
         </select>
 
         <br>
@@ -192,7 +185,9 @@
 
     </div>
   </div>
-
+    <footer>
+      
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -20,7 +20,7 @@ class Connection {
             
             self::$conn = new PDO(
                 "mysql:host=localhost;dbname=dbnbadraft", 
-                "root", "RwC7pk3NhCtJ8By", $opcoes);
+                "root", "bancodedados", $opcoes);
         }
 
         return self::$conn;
