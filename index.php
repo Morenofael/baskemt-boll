@@ -92,7 +92,7 @@
                   ?>
                 </p>
               </div>
-              <button type="button" class="btn btn-success"><i class="bi bi-bag"></i> Compra</button>
+              <a href="tuepobrelol.html"><button type="button" class="btn btn-success"><i class="bi bi-bag"></i>Compra</button></a>
             </div>
           </div>
         </div>
