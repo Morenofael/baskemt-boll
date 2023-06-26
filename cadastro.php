@@ -20,7 +20,7 @@
           ' VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)';
           $stmt = $conn->prepare($sql);
           $stmt->execute([$nome, $altura, $peso, $nascimento, $universidade, $pickYear, $pickRd, $pickNum, $pickTeam, $fotoLink]);
-          header("location: index.php");
+          header("location: cadastro.php");
     }
     ?>
 
@@ -125,5 +125,3 @@
      
 </body>
 </html>   
-</body>
-</html>
