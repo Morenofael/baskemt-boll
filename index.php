@@ -101,13 +101,15 @@
   </div>
     <footer class="bg-dark">
       <div class="container-fluid d-flex text-light mt-4 pt-4">
-        <img src="imagens/logo-nba.png" alt="Logo da NBA" class="img-fluid">
+        <div>
+          <img src="./imagens/logo-nba.png" alt="Logo da NBA" class="img-fluid">
+        </div>
         <div>
             <p>Sobre nós</p>
             <p>FAQ</p>
             <p>Jogadores</p>
             <p>Jurídico</p>
-            <button type="button" class="btn btn-outline-success"><a href="cadastro.php"> Cadastrar jogador</a></button>
+            <p><a href="cadastro.php" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Cadastrar Jogador</a></p>
         </div>
       </div>
     </footer>
