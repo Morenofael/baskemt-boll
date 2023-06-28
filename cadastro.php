@@ -59,102 +59,141 @@
 
 <div class="container">
  
-    <form action="" method="POST">
-        <div class="mb-3">
-            <label for="inputNome" class="form-label">Nome do Jogador</label>
-                <input id="inputNome" class="form-control" type="text" name="nome">
-        </div> 
+  <form action="" method="POST">
 
-            <br>
-
-        <div class="mb-3">
-            <label for="inputAlt" class="form-label">Altura do Jogador</label>
-            <input id="inputAlt" class="form-control" type="number" name="altura">
-        </div>
+    <div class="mb-3">
+        <label for="inputNome" class="form-label">Nome do Jogador</label>
+            <input id="inputNome" class="form-control" type="text" name="nome">
+    </div> 
 
         <br>
 
-        <div class="mb-3">
-            <label for="inputPeso" class="form-label">Peso do Jogador</label>
-            <input id="inputPeso" class="form-control" type="text" name="peso">
-        </div>
+    <div class="mb-3">
+        <label for="inputAlt" class="form-label">Altura do Jogador</label>
+        <input id="inputAlt" class="form-control" type="number" name="altura">
+    </div>
 
-            <br>
+    <br>
 
-        <div class="mb-3">
-            <label for="inputNas" class="form-label">Data de Nascimento do Jogador</label>
-            <input id="inputNas" class="form-control" type="date" name="nascimento">
-        </div>
+    <div class="mb-3">
+        <label for="inputPeso" class="form-label">Peso do Jogador</label>
+        <input id="inputPeso" class="form-control" type="text" name="peso">
+    </div>
 
-            <br>
+        <br>
 
-        <div class="mb-3">
-            <label for="inputUni" class="form-label">universidade que o Jogador atuou</label>
-            <input id="inputUni" class="form-control" type="text" name="universidade">
-        </div>
+    <div class="mb-3">
+      <label for="inputNas" class="form-label">Data de Nascimento do Jogador</label>
+      <input id="inputNas" class="form-control" type="date" name="nascimento">
+    </div>
 
-            <br>
+    <br>
 
-            <input type="number" name="pickYear"
-                placeholder="Informe o ano de Draft do Jogador" />
+    <div class="mb-3">
+      <label for="inputUni" class="form-label">universidade que o Jogador atuou</label>
+      <input id="inputUni" class="form-control" type="text" name="universidade">
+    </div>
 
-            <br>
+        <br>
 
-            <input type="number" name="pickRd"
-                placeholder="Informe o round de Draft do Jogador" />
+    <div class="input-group">
+      <span class="input-group-text">Pick Ano</span>
+      <input type="number" name="pickYear" aria-label="Pick Ano" class="form-control">
+      <span class="input-group-text">Round</span>
+      <input type="number" name="pickRd" aria-label="Pick Round" class="form-control">
+      <span class="input-group-text">Escolha</span>
+      <input type="number" name="pickNum" aria-label="Pick Numero" class="form-control">
+    </div>
 
-            <br>
+    <select name="pickTeam">
+      <option value="">---TIME DE DRAFT---</option>
+      <option value="GSW">Golden State Warriors</option>
+      <option value="LAL">Los Angeles Lakes</option>
+      <option value="DEN">Denver Nuggets</option>
+      <option value="LAC">LA Clippers</option>
+      <option value="PHX">Phoenix Suns</option>
+      <option value="SAC">Sacramento Kings</option>
+      <option value="BOS">Boston Celtics</option>
+      <option value="BKN">Brooklyn Nets</option>
+      <option value="NYK">New York Knicks</option>
+      <option value="P76">Philadelphia 76ers</option>
+      <option value="TOR">Toronto Raptors</option>
+      <option value="CHI">Chicago Bulls</option>
+      <option value="CLE">Cleveland Cavaliers</option>
+      <option value="DET">Detroit Pistons</option>
+      <option value="IND">Indiana Pacers</option>
+      <option value="MIL">Milwaukee Bucks</option>
+      <option value="ATL">Atlanta Hawks</option>
+      <option value="CHA">Charlotte Hornets</option>
+      <option value="MIA">Miami Heat</option>
+      <option value="ORL">Orlando Magic</option>
+      <option value="WAS">Washington Wizards</option>
+      <option value="MIN">Minnesota Timberwolves</option>
+      <option value="OKC">Oklahoma City Thunder</option>
+      <option value="POR">Portland Trail Blazers</option>
+      <option value="UTA">Utah Jazz</option>
+      <option value="DAL">Dallas Mavericks</option>
+      <option value="HOU">Houston Rockets</option>
+      <option value="MEM">Memphis Grizzlies</option>
+      <option value="NOP">New Orleans Pelicans</option>
+      <option value="SAS">San Antonio Spurs</option>
+    </select>
 
-            <input type="number" name="pickNum"
-                placeholder="Informe o número da pick de Draft do Jogador" />
+    <br>
 
-            <br>
+    <input type="text" name="fotoLink"
+        placeholder="Adicione um link de foto do Jogador" />
 
-            <select name="pickTeam">
-                <option value="">---TIME DE DRAFT---</option>
-                <option value="GSW">Golden State Warriors</option>
-                <option value="LAL">Los Angeles Lakes</option>
-                <option value="DEN">Denver Nuggets</option>
-                <option value="LAC">LA Clippers</option>
-                <option value="PHX">Phoenix Suns</option>
-                <option value="SAC">Sacramento Kings</option>
-                <option value="BOS">Boston Celtics</option>
-                <option value="BKN">Brooklyn Nets</option>
-                <option value="NYK">New York Knicks</option>
-                <option value="P76">Philadelphia 76ers</option>
-                <option value="TOR">Toronto Raptors</option>
-                <option value="CHI">Chicago Bulls</option>
-                <option value="CLE">Cleveland Cavaliers</option>
-                <option value="DET">Detroit Pistons</option>
-                <option value="IND">Indiana Pacers</option>
-                <option value="MIL">Milwaukee Bucks</option>
-                <option value="ATL">Atlanta Hawks</option>
-                <option value="CHA">Charlotte Hornets</option>
-                <option value="MIA">Miami Heat</option>
-                <option value="ORL">Orlando Magic</option>
-                <option value="WAS">Washington Wizards</option>
-                <option value="MIN">Minnesota Timberwolves</option>
-                <option value="OKC">Oklahoma City Thunder</option>
-                <option value="POR">Portland Trail Blazers</option>
-                <option value="UTA">Utah Jazz</option>
-                <option value="DAL">Dallas Mavericks</option>
-                <option value="HOU">Houston Rockets</option>
-                <option value="MEM">Memphis Grizzlies</option>
-                <option value="NOP">New Orleans Pelicans</option>
-                <option value="SAS">San Antonio Spurs</option>
-            </select>
+    <br>
 
-            <br>
+    <button type="submit">Cadastrar</button>
 
-            <input type="text" name="fotoLink"
-                placeholder="Adicione um link de foto do Jogador" />
+    <input type="hidden" name="submetido" value="1" />
+  </form>
 
-            <br>
+    <?php 
+        $sql = "SELECT * FROM players";
 
-            <button type="submit">Cadastrar</button>
+        //Prepara e executa o comando SQL
+        $stmt = $conn->prepare($sql);
+        $stmt->execute();
+        //Armazena os resultados ($result é uma matriz)
+        $result = $stmt->fetchAll();
+    ?>
 
-            <input type="hidden" name="submetido" value="1" />
-    </form>
+    <br><br>
+
+    <div class="table-responsive">
+      <table class="table mt-2 table-responsive-lg">
+          <tr>
+              <td>ID</td>
+              <td>Nome</td>
+              <td>Altura</td>
+              <td>Peso</td>
+              <td>Nascimento</td>
+              <td>Universidade</td>
+              <td>Pick</td>
+              <td></td>
+          </tr>
+          
+          <?php foreach($result as $reg): ?>
+              <tr>
+                  <td> <?php echo $reg['id'] ?> </td>
+                  <td> <?php echo $reg['nome'] ?> </td>
+                  <td> <?= $reg['altura'] ?> </td>
+                  <td> <?= $reg['peso'] ?> </td>
+                  <td> <?= $reg['nascimento'] ?> </td>
+                  <td> <?= $reg['universidade'] ?> </td>
+                  <td> <?= $reg['pickYear'] ?>: Rd <?= $reg['pickRd'] ?>, Pick <?= $reg['pickNum'] ?> (<?= $reg['pickTeam'] ?>)</td>
+                  <td><a href="player_del.php?id=<?= $reg['id']; ?>"
+                          onclick="return confirm('Confirma a exclusão?');">
+                          Excluir</a></td>
+
+              </tr>
+          <?php endforeach; ?>
+      </table>
+    </div>
+    
     </div>
     <footer class="bg-dark">
       <div class="container-fluid d-flex text-light mt-4 pt-4">
