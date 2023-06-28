@@ -8,7 +8,7 @@ $id = isset($_GET['id']) ? $_GET['id'] : null;
 if($id) {
     $conn = Connection::getConnection();
 
-    $sql = "DELETE FROM player WHERE id = ?";
+    $sql = "DELETE FROM players WHERE id = ?";
     $stmt = $conn->prepare($sql);
     $stmt->execute([$id]);
 

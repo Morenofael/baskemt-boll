@@ -94,7 +94,7 @@
       <input id="inputUni" class="form-control" type="text" name="universidade">
     </div>
 
-        <br>
+    <br>
 
     <div class="input-group">
       <span class="input-group-text">Pick Ano</span>
@@ -105,7 +105,9 @@
       <input type="number" name="pickNum" aria-label="Pick Numero" class="form-control">
     </div>
 
-    <select name="pickTeam">
+    <br>
+
+    <select name="pickTeam" class="form-select" aria-label="Default select example">
       <option value="">---TIME DE DRAFT---</option>
       <option value="GSW">Golden State Warriors</option>
       <option value="LAL">Los Angeles Lakes</option>
@@ -140,9 +142,11 @@
     </select>
 
     <br>
-
-    <input type="text" name="fotoLink"
-        placeholder="Adicione um link de foto do Jogador" />
+    
+    <div class="mb-3">
+      <label for="inputFoto" class="form-label">universidade que o Jogador atuou</label>
+      <input id="inputFoto" class="form-control" type="text" name="fotoLink">
+    </div>
 
     <br>
 
