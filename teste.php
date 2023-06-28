@@ -16,7 +16,7 @@
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <div class="card">
-                <!--<img src="https://cdn.nba.com/headshots/nba/latest/1040x760/203500.png" class="card-img-top" alt="...">-->
+                <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/203500.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Steven Adams</h5>
                   <p class="card-text">
