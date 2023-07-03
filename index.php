@@ -98,6 +98,7 @@
         </div>
 
       <?php endforeach; ?>
+      <!-- Isso 'e pra ser o easter-egg mobile -->
       <div class="col easter-egg">
           <div class="card h-100">
             <img src="imagens/cara-chocado.jpg" class="card-img-top" alt="...">
