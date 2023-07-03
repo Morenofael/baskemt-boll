@@ -98,7 +98,23 @@
         </div>
 
       <?php endforeach; ?>
-
+      <div class="col easter-egg">
+          <div class="card h-100">
+            <img src="imagens/cara-chocado.jpg" class="card-img-top" alt="...">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 class="card-title"><?php echo $reg['nome'] ?></h5>
+                <p class="card-text">
+                  <?php echo $reg['altura']."M  ".$reg['peso']."Kg <br>".
+                    $reg['nascimento']." ".$reg['universidade']."<br>".
+                    $reg['pickYear'].": RD ".$reg['pickRd'].", Pick ".$reg['pickNum']."(".$reg['pickTeam'].")";
+                  ?>
+                </p>
+              </div>
+              <a href="tuepobrelol.html"><button type="button" class="btn btn-success"><i class="bi bi-bag"></i>Compra</button></a>
+            </div>
+          </div>
+        </div>
 
     </div>
   </div>

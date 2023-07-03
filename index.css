@@ -24,3 +24,11 @@ body #navbar{
 label{
     color: cornsilk;
 }
+.easter-egg{
+    display: hidden;
+}
+@media (min-width:320px){
+    .easter-egg{
+        display: block;
+    }
+}
